@@ -1,0 +1,21 @@
+
+new fullpage('#fullpage', {
+  easingcss3: "cubic-bezier(0.645, 0.045, 0.355, 1)",
+  scrollingSpeed: 1e3,
+  autoScrolling: true,
+  navigation: true,
+  anchors:['section1', 'section2', 'section3', 'section4'],
+  // navigationTooltips: ['Home', 'About', 'Contact', 'something'],
+  showActiveTooltip: false,
+  scrollingSpeed: 1200,
+  fitToSection: true,
+  fitToSectionDelay: 1000,
+  controlArrows: false,
+  slidesNavigation: true,
+  loopBottom: false,
+  loopTop: false,
+  dragAndMove: true,
+  easing: 'easeInOutCubic',
+  navigationPosition: 'left',
+  scrollOverflow: true,
+})
